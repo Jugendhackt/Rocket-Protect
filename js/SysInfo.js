@@ -3,11 +3,35 @@
 //var browser = navigator.appCodeName;
 //alert(browser)
 
-function getip(json){
-      document.getElementById("IP").innerHTML=json.ip;
+/*      document.getElementById("IP").innerHTML=json.ip;
 
       console.log(navigator);
    }
+*/
+
+$(document).ready(function(){
+
+  yourOS();
+  yourBrowser();
+
+  $.get(
+    "http://freegeoip.net/json/",
+    {},
+    function(data) {
+
+      $("#IP").html(data.ip);
+      $("#land").html(data.country_name)
+
+
+    }
+
+
+    )
+
+
+});
+
+
 
 
 function yourOS(){ 
@@ -41,7 +65,7 @@ function yourOS(){
  }
 
 
-
+function yourBrowser(){
 
 var nVer = navigator.appVersion;
 var nAgt = navigator.userAgent;
@@ -102,3 +126,4 @@ if (isNaN(majorVersion)) {
 }
 
 document.getElementById("Browser").innerHTML=browserName+" "+majorVersion;
+}
