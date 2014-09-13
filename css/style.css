@@ -37,6 +37,22 @@ background-color: #6e6e6e;
 
 }
 
+
+#VPN{
+
+	margin-left: 20em;
+
+	border-color: #DC8C00;
+	border-style: groove;
+	border-radius: 20;
+	border-width: 10px;
+	padding: 10px;
+	height: 100px;
+
+}
+
+
+
 h1{
 	font-size: 72pt;
 }
