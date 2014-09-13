@@ -13,6 +13,8 @@ background-color: #6e6e6e;
 	border-style: groove;
 	border-radius: 20;
 	border-width: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 
 	width: 17em;
 	height: 25em;
@@ -27,6 +29,7 @@ background-color: #6e6e6e;
 #SysInfo{
 
 	margin-left: 20em;
+	margin-right: 5px;
 
 	border-color: #DC8C00;
 	border-style: groove;
@@ -41,6 +44,7 @@ background-color: #6e6e6e;
 #VPN{
 
 	margin-top: 5px;
+	margin-right: 5px;
 	margin-left: 20em;
 
 	border-color: #DC8C00;
