@@ -1,55 +1,45 @@
 <html>
-<head>
-	<title>Win 7 Guid</title>
-</head>
-<body>
-<h2>VPN-Verbindung: Windows 7</h2>
+	<head>
+		<title>Win 7 Guid</title>
+	</head>
 
-<p>Schritt 1: Klicken sie auf „Start“. Anschlie&szlig;end auf „Systemsteuerung“, und dann auf „Netzwerk und Internet“</p>
-<p>Schritt 2: „Netzwerk und Freigabecenter“ &ouml;ffnen</p>
-<p>Schritt 3: Klicken sie in der Aufgabenleiste links auf „Adaptereinstellungen &auml;ndern“</p>
-<p>Schritt 4: Klicken sie links oben auf „Datei“ und w&auml;hlen dann „Neue eingehende Verbindung...“ </p>
-<p>Im n&auml;chstem Fenster m&uuml;ssen Sie einen Namen ausw&auml;hlen, damit der Benutzer auf Ihren Computer und das Netzwerk zugreifen kann.</p>
-<p>Tipp: Um einen Missbrauch durch Dritte zu vermeiden, empfehlen wir Ihnen einen neuen Benutzer f&uuml;r die eingehende VPN-Verbindung einzurichten. Klicken Sie dazu auf die Schaltfl&auml;che "Benutzer hinzuf&uuml;gen...“</p>
-<p>Schritt 5: Geben Sie hier Ihren gew&uuml;nschten Benutzernamen und das gew&uuml;nschte Kennwort an. Wiederholen Sie das Kennwort, um Schreibfehler auszuschlie&szlig;en. Nach Ihrer Eingabe klicken Sie auf die Schaltfl&auml;che "OK".</p>
-<p>Schritt 6: Aktivieren Sie das Kontrollk&auml;stchen neben einem Namen, damit dieser Benutzer auf diesen Computer &uuml;ber VPN-Verbindung zugreifen kann. Klicken Sie dann auf "Weiter".</p>
-<p>Schritt 7:Die Zugriffe auf den VPN-Server k&ouml;nnen &uuml;ber ein lokales Netzwerk oder das Internet erfolgen. Aktivieren Sie hier das Kontrollk&auml;stchen "&Uuml;ber das Internet" und mit Klick auf "Weiter" gelangen Sie zum n&auml;chsten Schritt.</p>
-<p>Schritt 8: F&uuml;r die eingehende VPN-Verbindung k&ouml;nnen unter Windows 7 verschiedene Protokolle und Dienste verwendet werden. Standardm&auml;&szlig;ig f&uuml;r eine VPN-Verbindung wird ein "Internetprotokoll Version 4 (TCP/IPv4)" verwendet. Falls der VPN-Client das IPv6 erfordert, k&ouml;nnen Sie das "Internetprotokoll Version 6 (TCP/IPv6)" markieren. Bei Bedarf k&ouml;nnen Sie auch verschiedene Protokolle oder Dienste installieren, indem Sie auf die Schaltfl&auml;che "Installieren..." klicken.</p>
-<p>Schritt 9: Nachdem Sie alle gew&uuml;nschte Kontrollk&auml;stchen f&uuml;r das Internetprotokoll markiert haben, klicken Sie dann auf "Zugriff zulassen".</p>
+	<body>
 
-<p>Schritt 10: Ausgew&auml;hlten Benutzer wird nun der VPN-Zugriff erteilt und sie k&ouml;nnen eine Verbindung mit diesem Computer herstellen.</p>
+		<h2>VPN-Verbindung: Windows 7</h2>
 
-<p>Schritt 11: Wenn Sie jetzt die Schaltfl&auml;che "Schlie&szlig;en" klicken, um die Einrichtung zu beenden, bekommen Sie im Fenster "Netzwerkverbindungen" eine neue "Eingehende Verbindung" angezeigt.</p>
-
-<p>Tipp: Falls die neu eingerichtete "Eingehende Verbindung" nicht sofort zu sehen ist, dr&uuml;cken Sie die Funktionstaste "F5" um den Fensteransicht zu aktualisieren. Durch einen Doppelklick oder mittels rechter Maustaste k&ouml;nnen Sie die Konfiguration pr&uuml;fen bzw. &auml;ndern.</p>
-<p>Hinweis: Um Probleme bei der Zuteilung der IP-Adressen durch einen DHCP-Server zu vermeiden, k&ouml;nnen Sie selbst eine feste IP-Adresse definieren. Klicken Sie dazu im Fenster "Verbindung mit diesem Computer zulassen" auf das Protokoll TCPv4 oder TCPv6 und klicken Sie die Schaltfl&auml;che "Eigenschaften". Markieren Sie die Option "IP-Adressen angeben" und tragen Sie die IP-Adressen in die Textfelder ein. Achten Sie, dass sich der VPN-Server und VPN-Client im gleichen IP-Subnetz befinden. Meldet der VPN-Server einen Fehler: 733, liegt hier ein DHCP-Problem vor. Korrigieren Sie manuell die IP-Adresse.</p>
-
-<p>Wir empfehlen auch f&uuml;r PPTP das IP-Protokoll 47 (nicht zu verwechseln mit dem TCP/UDP Port 47!) und den TCP Port 1723 f&uuml;r die VPN-Zugriffe auf dem Router und die Firewall vor dem VPN-Server zu &ouml;ffnen. F&uuml;r L2TP ben&ouml;tigen Sie die UDP Ports 500 und 1701 sowie das IP-Protokoll 50. Achten Sie aber, dass diese Kombination Probleme verursachen kann, weil sie grunds&auml;tzlich nicht NAT-f&auml;hig ist.</p>
-
-<p>Schritt 12: Einrichten des VPN-Clients (Ausgehende VPN-Verbindungen)Um eine VPN-Verbindung mit dem VPN-Server aufzubauen klicken Sie auf "Start" und im Start-Men&uuml; auf "Systemsteuerung". In der Systemsteuerung klicken Sie auf "Netzwerk und Internet",und dann auf "Netzwerk- und Freigabecenter". Klicken Sie in dem Netzwerk- und Freigabezenter auf "Neue Verbindung oder neues Netzwerk einrichten".</p>
-
-<p>Schritt 13: In den Verbindungsoptionen w&auml;hlen Sie "Verbindung mit dem Arbeitsplatz herstellen" aus und klicken Sie auf "Weiter".Im folgenden Fenster w&auml;hlen Sie die Option "Die Internetverbindung (VPN) verwenden".</p>
-
-<p>Schritt 14: Als n&auml;chstes geben Sie unter "Internetadresse" die IP-Adresse des VPN-Server ein und als "Zielname" verwenden Sie eine beliebige Bezeichnung f&uuml;r diese VPN-Verbindung. Falls Sie die VPN-Verbindung f&uuml;r andere Benutzer auf Ihrem Computer freigeben m&ouml;chten, aktivieren Sie die Option "Anderen Benutzern erlauben, diese Verbindung zu verwenden".</p>
-<p>Mit Klick auf "Weiter" gelangen Sie zum n&auml;chsten Schritt.
-
-<p>Schritt 15: Als n&auml;chstes geben Sie Ihren Benutzernamen und Kennwort ein und klicken Sie unten auf die Schaltfl&auml;che "Verbinden". Zum Schluss wird die Verbindung mit dem VPN-Server hergestellt. Die neu erstellte Verbindung ist jetzt im Fenster "Netzwerkverbindungen" zu sehen.</p>
-
-<p>Tipp: &Uuml;ber die rechte Maustaste und "Eigenschaften" k&ouml;nnen Sie die Konfiguration pr&uuml;fen bzw. &auml;ndern. Durch einen Doppelklick wird eine VPN-Verbindung hergestellt.Die VPN-Verbindung kann jederzeit auch &uuml;ber das Netzwerksymbol in der Taskleiste verbunden oder getrennt werden.</p>
-
-<p>Tipp: Unter Umst&auml;nden kann es passieren, dass der L2TP oder PPTP WAN-Miniport Treiber besch&auml;digt ist und nicht geladen werden kann. Mit Hilfe von ein paar Zeilen auf der Kommandozeile lassen sich die beiden Treiber neu installieren.</p>
-<p>Deinstallation des L2TP und PPTP WAN-Miniport Treiber: </p>
-<p>>netcfg -u ms_l2tp </p>
-<p>>netcfg -u ms_pptp</p>
-<p>Erneute Installation des L2TP und PPTP WAN-Miniport Treiber:</p>
-<p>>netcfg -l %windir%\inf\netrast.inf -c p -i ms_pptp</p>
-<p>>netcfg -l %windir%\inf\netrast.inf -c p -i ms_l2tp </p>
-<p>Zum Abschluss der Installation ist ein Neustart erforderlich!</p>
-
-<p>Auf die Freigaben des VPN-Server zugreifen</p>
-<p>Wurde der Zugriff auf das lokale Netzwerk des VPN-Server gestattet, k&ouml;nnen Sie auf die Freigaben zugreifen, indem Sie z.B. mit der rechten Maustaste auf den Desktop klicken und "Neu/Verkn&uuml;pfung" erstellen. Tragen Sie im Textfeld den Pfadnamen des Rechners auf dem Sie zugreifen m&ouml;chten zum Beispiel "\\192.168.2.2\c" ein und unten im Fenster klicken Sie auf "Weiter".</p>
-<p>Im folgendem Fenster geben Sie einen Namen f&uuml;r die "Netzwerk-Verkn&uuml;pfung" und klicken Sie anschlie&szlig;end auf "Fertigstellen". Alternativ zur Pfadeingabe k&ouml;nnen Sie auch &uuml;ber den "Durchsuchen“ -Button zu dem freigegebenen Ordner navigieren.</p>
-<p>Vergessen Sie auf keinen Fall das einleitende "\\" und die Trennung von Rechnername und Ressource durch "\". Sie k&ouml;nnen jetzt problemlos Ihre Dateien austauschen bzw. hin und her kopieren.> </p>
-
-</body>
+		<p>Schritt 1: Klicken sie auf „Start“. Anschlie&szlig;end auf „Systemsteuerung“, und dann auf „Netzwerk und Internet“</p>
+		<p>Schritt 2: „Netzwerk und Freigabecenter“ &ouml;ffnen</p>
+		<p>Schritt 3: Klicken sie in der Aufgabenleiste links auf „Adaptereinstellungen &auml;ndern“</p>
+		<p>Schritt 4: Klicken sie links oben auf „Datei“ und w&auml;hlen dann „Neue eingehende Verbindung...“ </p>
+		<p>Im n&auml;chstem Fenster m&uuml;ssen Sie einen Namen ausw&auml;hlen, damit der Benutzer auf Ihren Computer und das Netzwerk zugreifen kann.</p>
+		<p>Tipp: Um einen Missbrauch durch Dritte zu vermeiden, empfehlen wir Ihnen einen neuen Benutzer f&uuml;r die eingehende VPN-Verbindung einzurichten. Klicken Sie dazu auf die Schaltfl&auml;che "Benutzer hinzuf&uuml;gen...“</p>
+		<p>Schritt 5: Geben Sie hier Ihren gew&uuml;nschten Benutzernamen und das gew&uuml;nschte Kennwort an. Wiederholen Sie das Kennwort, um Schreibfehler auszuschlie&szlig;en. Nach Ihrer Eingabe klicken Sie auf die Schaltfl&auml;che "OK".</p>
+		<p>Schritt 6: Aktivieren Sie das Kontrollk&auml;stchen neben einem Namen, damit dieser Benutzer auf diesen Computer &uuml;ber VPN-Verbindung zugreifen kann. Klicken Sie dann auf "Weiter".</p>
+		<p>Schritt 7:Die Zugriffe auf den VPN-Server k&ouml;nnen &uuml;ber ein lokales Netzwerk oder das Internet erfolgen. Aktivieren Sie hier das Kontrollk&auml;stchen "&Uuml;ber das Internet" und mit Klick auf "Weiter" gelangen Sie zum n&auml;chsten Schritt.</p>
+		<p>Schritt 8: F&uuml;r die eingehende VPN-Verbindung k&ouml;nnen unter Windows 7 verschiedene Protokolle und Dienste verwendet werden. Standardm&auml;&szlig;ig f&uuml;r eine VPN-Verbindung wird ein "Internetprotokoll Version 4 (TCP/IPv4)" verwendet. Falls der VPN-Client das IPv6 erfordert, k&ouml;nnen Sie das "Internetprotokoll Version 6 (TCP/IPv6)" markieren. Bei Bedarf k&ouml;nnen Sie auch verschiedene Protokolle oder Dienste installieren, indem Sie auf die Schaltfl&auml;che "Installieren..." klicken.</p>
+		<p>Schritt 9: Nachdem Sie alle gew&uuml;nschte Kontrollk&auml;stchen f&uuml;r das Internetprotokoll markiert haben, klicken Sie dann auf "Zugriff zulassen".</p>
+		<p>Schritt 10: Ausgew&auml;hlten Benutzer wird nun der VPN-Zugriff erteilt und sie k&ouml;nnen eine Verbindung mit diesem Computer herstellen.</p>
+		<p>Schritt 11: Wenn Sie jetzt die Schaltfl&auml;che "Schlie&szlig;en" klicken, um die Einrichtung zu beenden, bekommen Sie im Fenster "Netzwerkverbindungen" eine neue "Eingehende Verbindung" angezeigt.</p>
+		<p>Tipp: Falls die neu eingerichtete "Eingehende Verbindung" nicht sofort zu sehen ist, dr&uuml;cken Sie die Funktionstaste "F5" um den Fensteransicht zu aktualisieren. Durch einen Doppelklick oder mittels rechter Maustaste k&ouml;nnen Sie die Konfiguration pr&uuml;fen bzw. &auml;ndern.</p>
+		<p>Hinweis: Um Probleme bei der Zuteilung der IP-Adressen durch einen DHCP-Server zu vermeiden, k&ouml;nnen Sie selbst eine feste IP-Adresse definieren. Klicken Sie dazu im Fenster "Verbindung mit diesem Computer zulassen" auf das Protokoll TCPv4 oder TCPv6 und klicken Sie die Schaltfl&auml;che "Eigenschaften". Markieren Sie die Option "IP-Adressen angeben" und tragen Sie die IP-Adressen in die Textfelder ein. Achten Sie, dass sich der VPN-Server und VPN-Client im gleichen IP-Subnetz befinden. Meldet der VPN-Server einen Fehler: 733, liegt hier ein DHCP-Problem vor. Korrigieren Sie manuell die IP-Adresse.</p>
+		<p>Wir empfehlen auch f&uuml;r PPTP das IP-Protokoll 47 (nicht zu verwechseln mit dem TCP/UDP Port 47!) und den TCP Port 1723 f&uuml;r die VPN-Zugriffe auf dem Router und die Firewall vor dem VPN-Server zu &ouml;ffnen. F&uuml;r L2TP ben&ouml;tigen Sie die UDP Ports 500 und 1701 sowie das IP-Protokoll 50. Achten Sie aber, dass diese Kombination Probleme verursachen kann, weil sie grunds&auml;tzlich nicht NAT-f&auml;hig ist.</p>
+		<p>Schritt 12: Einrichten des VPN-Clients (Ausgehende VPN-Verbindungen)Um eine VPN-Verbindung mit dem VPN-Server aufzubauen klicken Sie auf "Start" und im Start-Men&uuml; auf "Systemsteuerung". In der Systemsteuerung klicken Sie auf "Netzwerk und Internet",und dann auf "Netzwerk- und Freigabecenter". Klicken Sie in dem Netzwerk- und Freigabezenter auf "Neue Verbindung oder neues Netzwerk einrichten".</p>
+		<p>Schritt 13: In den Verbindungsoptionen w&auml;hlen Sie "Verbindung mit dem Arbeitsplatz herstellen" aus und klicken Sie auf "Weiter".Im folgenden Fenster w&auml;hlen Sie die Option "Die Internetverbindung (VPN) verwenden".</p>
+		<p>Schritt 14: Als n&auml;chstes geben Sie unter "Internetadresse" die IP-Adresse des VPN-Server ein und als "Zielname" verwenden Sie eine beliebige Bezeichnung f&uuml;r diese VPN-Verbindung. Falls Sie die VPN-Verbindung f&uuml;r andere Benutzer auf Ihrem Computer freigeben m&ouml;chten, aktivieren Sie die Option "Anderen Benutzern erlauben, diese Verbindung zu verwenden".</p>
+		<p>Mit Klick auf "Weiter" gelangen Sie zum n&auml;chsten Schritt.
+		<p>Schritt 15: Als n&auml;chstes geben Sie Ihren Benutzernamen und Kennwort ein und klicken Sie unten auf die Schaltfl&auml;che "Verbinden". Zum Schluss wird die Verbindung mit dem VPN-Server hergestellt. Die neu erstellte Verbindung ist jetzt im Fenster "Netzwerkverbindungen" zu sehen.</p>
+		<p>Tipp: &Uuml;ber die rechte Maustaste und "Eigenschaften" k&ouml;nnen Sie die Konfiguration pr&uuml;fen bzw. &auml;ndern. Durch einen Doppelklick wird eine VPN-Verbindung hergestellt.Die VPN-Verbindung kann jederzeit auch &uuml;ber das Netzwerksymbol in der Taskleiste verbunden oder getrennt werden.</p>
+		<p>Tipp: Unter Umst&auml;nden kann es passieren, dass der L2TP oder PPTP WAN-Miniport Treiber besch&auml;digt ist und nicht geladen werden kann. Mit Hilfe von ein paar Zeilen auf der Kommandozeile lassen sich die beiden Treiber neu installieren.</p>
+		<p>Deinstallation des L2TP und PPTP WAN-Miniport Treiber: </p>
+		<p>>netcfg -u ms_l2tp </p>
+		<p>>netcfg -u ms_pptp</p>
+		<p>Erneute Installation des L2TP und PPTP WAN-Miniport Treiber:</p>
+		<p>>netcfg -l %windir%\inf\netrast.inf -c p -i ms_pptp</p>
+		<p>>netcfg -l %windir%\inf\netrast.inf -c p -i ms_l2tp </p>
+		<p>Zum Abschluss der Installation ist ein Neustart erforderlich!</p>
+		<p>Auf die Freigaben des VPN-Server zugreifen</p>
+		<p>Wurde der Zugriff auf das lokale Netzwerk des VPN-Server gestattet, k&ouml;nnen Sie auf die Freigaben zugreifen, indem Sie z.B. mit der rechten Maustaste auf den Desktop klicken und "Neu/Verkn&uuml;pfung" erstellen. Tragen Sie im Textfeld den Pfadnamen des Rechners auf dem Sie zugreifen m&ouml;chten zum Beispiel "\\192.168.2.2\c" ein und unten im Fenster klicken Sie auf "Weiter".</p>
+		<p>Im folgendem Fenster geben Sie einen Namen f&uuml;r die "Netzwerk-Verkn&uuml;pfung" und klicken Sie anschlie&szlig;end auf "Fertigstellen". Alternativ zur Pfadeingabe k&ouml;nnen Sie auch &uuml;ber den "Durchsuchen“ -Button zu dem freigegebenen Ordner navigieren.</p>
+		<p>Vergessen Sie auf keinen Fall das einleitende "\\" und die Trennung von Rechnername und Ressource durch "\". Sie k&ouml;nnen jetzt problemlos Ihre Dateien austauschen bzw. hin und her kopieren.> </p>
+	</body>
 </html>
