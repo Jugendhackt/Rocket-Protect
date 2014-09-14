@@ -1,150 +1,107 @@
 <html>
-	
-<head>
+	<head>
 
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/SysInfo.js"></script>
+		<title>Rocket-Protect</title>
+		<link rel="stylesheet" href="css/style.css">
 
-	<script src="js/jquery.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/SysInfo.js"></script>
-	<!--<script type="http://freegeoip.net/json/"></script> -->
-	
-	
-	<title>Rocket-Protect</title>
-		
+	</head>
 
-	<link rel="stylesheet" href="css/style.css">
+	<body>
 
-	
-</head>
+		<div id="headline" class="headline">
 
-<body>
-
-	<div id="headline" class="headline">
 			<img style="float:left; margin-top:20px" src="images/rakete.png" width="55" heigth="70">
 			<h1 style="float:left"> Rocket-Protect </h1>
 			<img style="margin-top:20px" src="images/rakete.png" width="55" heigth="70">
-	</div>	
 
-	<div id="leftdiv">
+		</div>	
 
-		<div id="Info"> 
-			<h3> Was ist Rocket-Protect? </h3>
-		
-			<p>
-				Rocket-Protect weist auf die Verletzlichkeit der eigenen Daten hin. 
-			</p>
-			<p>
-				Obwohl Javascript &uumlberall als Einfallstor f&uumlr Spyware und anderen Viren bekannt ist,
-				schalten nur wenige das Feature ab.
-			</p>
-			<p>
-				Noch weniger Leute benutzen NoScript.
-			</p>
-			<p>
-				Rocket-Protect listet alle Daten auf, die man durch JavaScript auslesen kann.
-			</p>
-			<p>
-				Aufgef&uumlhrt sind unter anderem die &oumlffentliche IP-Adresse des Computers und dessen Betriebssystem.
-			</p>
-			<p>
-				Au&szligerdem gibt es f&uumlr jedes Betriebssystem eine "Mini-Instruction-Guide",
-			</p>
-			<p>
-				wie man mit bordeigenen Mitteln oder Zusatzprogrammen selber eine sichere VPN-Verbindung herstellen kann. 
-			</p>
-			<p>
-				Des weiteren werden bekannte Server aufgelistet, die den eigenen Internetverkehr anonymisieren.
-			</p>		
-		</div>
+		<div id="leftdiv">
 
-		<div id="guidLinks">
-			<h3>Guides</h3>	
-			<a class="links" href="guids/win7.html"><p>+ Windows 7 +</p></a>
-			<a class="links" href="guids/ios.html"><p>+ iOS +</p></a>
-			<a class="links" href="guids/android_4x.html"><p>+ Android 4.x +</p></a>
-			<a class="links" href="guids/linux.html"><p>+ Linux +</p></a>
+			<div id="Info">
+
+				<h3> Was ist Rocket-Protect? </h3>
+				<p>Rocket-Protect weist auf die Verletzlichkeit der eigenen Daten hin.</p>
+				<p>Obwohl Javascript &uuml;berall als Einfallstor f&uuml;r Spyware und anderen Viren bekannt ist,schalten nur wenige das Feature ab.</p>
+				<p>Noch weniger Leute benutzen NoScript.</p>			
+				<p>Rocket-Protect listet alle Daten auf, die man durch JavaScript auslesen kann.</p>			
+				<p>Aufgef&uuml;hrt sind unter anderem die &ouml;ffentliche IP-Adresse des Computers und dessen Betriebssystem.</p><p>Au&szlig;erdem gibt es f&uuml;r jedes Betriebssystem eine "Mini-Instruction-Guide",</p>		
+				<p>wie man mit bordeigenen Mitteln oder Zusatzprogrammen selber eine sichere VPN-Verbindung herstellen kann.</p><p>Des weiteren werden bekannte Server aufgelistet, die den eigenen Internetverkehr anonymisieren.</p>		
+
+			</div>
+
+			<div id="guidLinks">
+
+				<h3>Guides</h3>	
+				<a class="links" href="guids/win7.html"><p>+ Windows 7 +</p></a>
+				<a class="links" href="guids/ios.html"><p>+ iOS +</p></a>
+				<a class="links" href="guids/android_4x.html"><p>+ Android 4.x +</p></a>
+				<a class="links" href="guids/linux.html"><p>+ Linux +</p></a>
+
+			</div>
 
 		</div>
 
+		<div id="SysInfo">
+			<table border="0" style="width:100%">
+				<tr>
+					<td>
+						<p class="infoHeadline">IP-Adresse</p>
+					</td>
 
-	</div>
-	
-	
+					<td>
+						<p class="infoHeadline">Betriebssytem</p>
+					</td>
 
-
-
-
-	<div id="SysInfo">
-		<table border="0" style="width:100%">
-			<tr>
-
-				<td>
-					<p class="infoHeadline">IP-Adresse</p>
-				</td>
-
-				<td>
-					<p class="infoHeadline">Betriebssytem</p>
-				</td>
-
-				<td>
-					<p class="infoHeadline">Browser</p>
-				</td>
-				
-				<td>
-					<p class="infoHeadline">Land</p>
-				</td>
-
-			</tr>
-
-			<tr>
-				<td height="80" >
-					<p class="infos" id="IP"></p>
-				</td>
-
-				<td>
-					<p class="infos" id="OS"></p>
-				</td>
-
-				<td>
-					<p class="infos" id="Browser"></p>
-				</td>
-
-				<td>
-					<p class="infos" id="land"></p>
-				</td>
-			</tr>
-		</table>
-	</div>
-
-	<div id="VPN">
-		<p>Virtual Private Network( virtuelles privates Netzwerk) ist eine Schnittstelle in einem Netzwerk und hat zwei unterschiedliche Bedeutungen.</p>
-		<p>Das konventionelle VPN dient dazu, Teilnehmer eines privaten (in sich geschlossenen) Netzes an ein anderes privates Netz zu binden.</p>
-		<p> Sobald also ein Computer eine VPN-Verbindung aufbaut, ist der Vorgang vergleichbar mit dem Umstecken seines Netzwerkkabels von seinem urspr&uuml;nglichen Netz an ein anderes (per VPN zugeordnetes) Netz.     </p>
-		<p>So kann beispielsweise ein Mitarbeiter von Zuhause aus Zugriff auf das Firmennetz erlangen, gerade so, als s&auml;&szlig;e er mittendrin.</p>
-		<p>Aus Sicht der VPN-Verbindung wird daf&uuml;r das urspr&uuml;ngliche Netz auf die Funktion eines Verl&auml;ngerungskabels reduziert, das den VPN-Teilnehmer ausschlie&szlig;lich mit dem zugeordneten Netz verbindet.    </p>
-		<p>Technisch gesehen geht die Verbindung hin zu einem VPN-Gateway, der Anschlussstelle des zugeordneten Netzes.  </p>
-		<p>Daf&uuml;r muss das VPN-Gateway von dem urspr&uuml;nglichen Netz aus erreichbar sein.                 </p>
-		<p>Gibt es auf dem Weg dorthin weitere dazwischen liegende Netze, dann werden auch diese bildlich gesehen zum Bestandteil des Verl&auml;ngerungskabels.  </p>
-		<p>Dieser Vorgang, dass ein VPN-Teilnehmer (VPN-Partner) zum Teilnehmer des zugeordneten Netzes wird, funktioniert unabh&auml;ngig von der physischen Topologie und den verwendeten Netzwerkprotokollen selbst dann, wenn das zugeordnete Netz von einer vollkommen anderen Art ist.  </p>
-		<p>Der sich daraus ergebende Nutzen eines VPNs kann je nach verwendetem VPN-Protokoll durch eine Verschl&uuml;sselung erg&auml;nzt werden, die eine abh&ouml;r- und manipulationssichere Kommunikation zwischen den VPN-Partnern erm&ouml;glicht.             </p>
-		<p>SSL-VPN (auch Web-basierendes VPN) unterst&uuml;tzt einen VPN-Modus im Sinne des konventionellen VPNs (Fat Client SSL VPN).    </p>
-		<p>Daneben werden seit 2002 unter dem Begriff SSL-VPN auch L&ouml;sungen verstanden, die einen Fernzugriff auf Unternehmensanwendungen und gemeinsam genutzte Ressourcen realisieren, ohne dass sich die SSL-VPN-Partner daf&uuml;r an das Unternehmensnetzwerk binden. </p>
-		<p>Hier wird sinnbildlich also nicht mehr das Netzwerkkabel an ein anderes Netz angeschlossen; es wird lediglich ein gesicherter Zugriff auf bestimmte Dienste des anderen Netzes erm&ouml;glicht.   </p>
-		<p>Technisch gesehen basieren diese L&ouml;sungen auf einem Proxy-Mechanismus (Thin Client SSL VPN) oder darauf, dass die begehrte Unternehmensanwendung selbst eine Webanwendung ist (Clientless SSL VPN), auf die ein SSL-VPN-Partner &uuml;ber eine gesicherte Verbindung zugreifen kann, ohne jedoch einen direkten Zugriff auf das Unternehmensnetz zu erhalten.</p>
-	</div>
+					<td>
+						<p class="infoHeadline">Browser</p>
+					</td>
+			
+					<td>
+						<p class="infoHeadline">Land</p>
+					</td>
+				</tr>
+			
+				<tr>
+					<td height="80" >
+						<p class="infos" id="IP"></p>
+					</td>
+			
+					<td>
+						<p class="infos" id="OS"></p>
+					</td>
+			
+					<td>
+						<p class="infos" id="Browser"></p>
+					</td>
+			
+					<td>
+						<p class="infos" id="land"></p>
+					</td>
+				</tr>
+			</table>
+		</div>
 
 
+		<div id="VPN">
 
-	
-		
-		
-</body>
+			<p>Virtual Private Network( virtuelles privates Netzwerk) ist eine Schnittstelle in einem Netzwerk und hat zwei unterschiedliche Bedeutungen.</p>
+			<p>Das konventionelle VPN dient dazu, Teilnehmer eines privaten (in sich geschlossenen) Netzes an ein anderes privates Netz zu binden.</p>
+			<p> Sobald also ein Computer eine VPN-Verbindung aufbaut, ist der Vorgang vergleichbar mit dem Umstecken seines Netzwerkkabels von seinem urspr&uuml;nglichen Netz an ein anderes (per VPN zugeordnetes) Netz.</p>
+			<p>So kann beispielsweise ein Mitarbeiter von Zuhause aus Zugriff auf das Firmennetz erlangen, gerade so, als s&auml;&szlig;e er mittendrin.</p>
+			<p>Aus Sicht der VPN-Verbindung wird daf&uuml;r das urspr&uuml;ngliche Netz auf die Funktion eines Verl&auml;ngerungskabels reduziert, das den VPN-Teilnehmer ausschlie&szlig;lich mit dem zugeordneten Netz verbindet.</p>
+			<p>Technisch gesehen geht die Verbindung hin zu einem VPN-Gateway, der Anschlussstelle des zugeordneten Netzes.</p>
+			<p>Daf&uuml;r muss das VPN-Gateway von dem urspr&uuml;nglichen Netz aus erreichbar sein.</p>
+			<p>Gibt es auf dem Weg dorthin weitere dazwischen liegende Netze, dann werden auch diese bildlich gesehen zum Bestandteil des Verl&auml;ngerungskabels.</p>
+			<p>Dieser Vorgang, dass ein VPN-Teilnehmer (VPN-Partner) zum Teilnehmer des zugeordneten Netzes wird, funktioniert unabh&auml;ngig von der physischen Topologie und den verwendeten Netzwerkprotokollen selbst dann, wenn das zugeordnete Netz von einer vollkommen anderen Art ist.</p>
+			<p>Der sich daraus ergebende Nutzen eines VPNs kann je nach verwendetem VPN-Protokoll durch eine Verschl&uuml;sselung erg&auml;nzt werden, die eine abh&ouml;r- und manipulationssichere Kommunikation zwischen den VPN-Partnern erm&ouml;glicht.             </p>
+			<p>SSL-VPN (auch Web-basierendes VPN) unterst&uuml;tzt einen VPN-Modus im Sinne des konventionellen VPNs (Fat Client SSL VPN).</p>
+			<p>Daneben werden seit 2002 unter dem Begriff SSL-VPN auch L&ouml;sungen verstanden, die einen Fernzugriff auf Unternehmensanwendungen und gemeinsam genutzte Ressourcen realisieren, ohne dass sich die SSL-VPN-Partner daf&uuml;r an das Unternehmensnetzwerk binden.</p>
+			<p>Hier wird sinnbildlich also nicht mehr das Netzwerkkabel an ein anderes Netz angeschlossen; es wird lediglich ein gesicherter Zugriff auf bestimmte Dienste des anderen Netzes erm&ouml;glicht.</p>
+			<p>Technisch gesehen basieren diese L&ouml;sungen auf einem Proxy-Mechanismus (Thin Client SSL VPN) oder darauf, dass die begehrte Unternehmensanwendung selbst eine Webanwendung ist (Clientless SSL VPN), auf die ein SSL-VPN-Partner &uuml;ber eine gesicherte Verbindung zugreifen kann, ohne jedoch einen direkten Zugriff auf das Unternehmensnetz zu erhalten.</p>
+
+		</div>
+	</body>
 </html>
-
-
-<!---
-	http://l2.io/ip.js?var=myip
-	http://jsonip.appspot.com/?callback=getip
-	https://smart-ip.net/geoip-json?callback=ip_callback
-	http://www.telize.com/ip
-
-	-->
