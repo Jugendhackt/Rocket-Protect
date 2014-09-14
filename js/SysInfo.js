@@ -1,28 +1,17 @@
-
-
-//var browser = navigator.appCodeName;
-//alert(browser)
-
-/*      document.getElementById("IP").innerHTML=json.ip;
-
-      console.log(navigator);
-   }
-*/
-
 $(document).ready(function(){
 
   yourOS();
   yourBrowser();
 
   $.get(
+
     "http://freegeoip.net/json/",
     {},
     function(data) {
 
       $("#IP").html(data.ip);
       $("#land").html(data.country_name)
-
-
+    
     }
 
 
@@ -30,8 +19,6 @@ $(document).ready(function(){
 
 
 });
-
-
 
 
 function yourOS(){ 
@@ -62,7 +49,7 @@ function yourOS(){
   document.getElementById("OS").innerHTML=full_os_name;
 
   //document.write(navigator.userAgent);
- }
+}
 
 
 function yourBrowser(){

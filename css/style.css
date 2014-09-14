@@ -1,11 +1,8 @@
 *{
 
-margin: 0;
-padding: 0;
-
-background-color: #7e7e7e;
-
-/* background-image: url("http://www.elisenhof.de/images/background.png"); */
+	margin: 0;
+	padding: 0;
+	background-color: #7e7e7e;
 
 }
 
@@ -27,13 +24,8 @@ background-color: #7e7e7e;
 	border-radius: 20;
 	border-width: 10px;
 	margin-bottom: 5px;
-	
-
 	width: 100%;
-	
-	/*background-color: #00FF00;*/
 	padding: 10px;
-
 
 }
 
@@ -43,13 +35,10 @@ background-color: #7e7e7e;
 	border-style: groove;
 	border-radius: 20;
 	border-width: 10px;
-	
 	width: 100%;
 	height: auto;
 	text-align: center;
 	padding: 10px;
-
-
 
 }
 
@@ -60,13 +49,11 @@ background-color: #7e7e7e;
 	margin-left: 20em;
 	margin-right: 5px;
 	height: auto;
-
 	border-color: #DC8C00;
 	border-style: groove;
 	border-radius: 20;
 	border-width: 10px;
 	padding: 10px;
-
 
 }
 
@@ -76,7 +63,6 @@ background-color: #7e7e7e;
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-left: 20em;
-
 	border-color: #DC8C00;
 	border-style: groove;
 	border-radius: 20;
@@ -86,26 +72,23 @@ background-color: #7e7e7e;
 
 }
 
-
-
 h1{
 	font-size: 72pt;
 }
+
 h2{
 	font-size: 32pt;
 }
+
 h3{
 	font-size: 19pt;
 }
-
-
 
 .infoHeadline{
 
 	font-size:24pt;
 	font-weight:bold;
 	margin-bottom: -15px;
-
 
 }
 .infos{
@@ -128,6 +111,5 @@ h3{
 	color: #000000;
 	text-decoration: none;
 	font-weight: lighter;
-
 
 }
